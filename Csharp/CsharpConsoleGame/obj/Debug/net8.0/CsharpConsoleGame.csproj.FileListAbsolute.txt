@@ -1,0 +1,15 @@
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\bin\Debug\net8.0\CsharpConsoleGame.exe
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\bin\Debug\net8.0\CsharpConsoleGame.deps.json
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\bin\Debug\net8.0\CsharpConsoleGame.runtimeconfig.json
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\bin\Debug\net8.0\CsharpConsoleGame.dll
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\bin\Debug\net8.0\CsharpConsoleGame.pdb
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.AssemblyInfoInputs.cache
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.AssemblyInfo.cs
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.csproj.CoreCompileInputs.cache
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.sourcelink.json
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.dll
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\refint\CsharpConsoleGame.dll
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.pdb
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\CsharpConsoleGame.genruntimeconfig.cache
+D:\XuanTree-s-Note-Vault\Codes\Csharp\CsharpConsoleGame\obj\Debug\net8.0\ref\CsharpConsoleGame.dll

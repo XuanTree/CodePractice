@@ -1,0 +1,14 @@
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\bin\Debug\net8.0\Csharp_Count.exe
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\bin\Debug\net8.0\Csharp_Count.deps.json
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\bin\Debug\net8.0\Csharp_Count.runtimeconfig.json
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\bin\Debug\net8.0\Csharp_Count.dll
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\bin\Debug\net8.0\Csharp_Count.pdb
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.AssemblyInfoInputs.cache
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.AssemblyInfo.cs
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.csproj.CoreCompileInputs.cache
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.dll
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\refint\Csharp_Count.dll
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.pdb
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\Csharp_Count.genruntimeconfig.cache
+D:\My_Projects\Csharp_Projects\CsharpPractice\Csharp_Count\obj\Debug\net8.0\ref\Csharp_Count.dll

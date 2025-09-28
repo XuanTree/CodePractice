@@ -1,0 +1,8 @@
+[*.cs]
+
+# IDE0210: 转换为顶级语句
+csharp_style_prefer_top_level_statements = true
+[*.cs]
+
+# IDE0210: 转换为顶级语句
+csharp_style_prefer_top_level_statements = true

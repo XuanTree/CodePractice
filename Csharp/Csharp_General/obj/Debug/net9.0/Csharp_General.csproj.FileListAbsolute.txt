@@ -1,0 +1,15 @@
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\bin\Debug\net9.0\Csharp_General.exe
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\bin\Debug\net9.0\Csharp_General.deps.json
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\bin\Debug\net9.0\Csharp_General.runtimeconfig.json
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\bin\Debug\net9.0\Csharp_General.dll
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\bin\Debug\net9.0\Csharp_General.pdb
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.GeneratedMSBuildEditorConfig.editorconfig
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.AssemblyInfoInputs.cache
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.AssemblyInfo.cs
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.csproj.CoreCompileInputs.cache
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.sourcelink.json
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.dll
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\refint\Csharp_General.dll
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.pdb
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\Csharp_General.genruntimeconfig.cache
+D:\XuanTree-s-Note-Vault\Projects\Csharp\Csharp_General\obj\Debug\net9.0\ref\Csharp_General.dll
