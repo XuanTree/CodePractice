@@ -9,7 +9,6 @@ int main()
     
     int total = year(x,y);
     printf("%d\n",total);
-
     for(int i = x;i <= y;i++)
     {
         if(i % 4 == 0)
@@ -29,10 +28,8 @@ int main()
             continue;
         }
     }
- 
     return 0;
 }
-
 int year(int x,int y)
 {
     int total = 0;
