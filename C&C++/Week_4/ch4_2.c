@@ -3,7 +3,7 @@ int main(){
     int num,_num;
     while (scanf("%d",&num) != EOF){
         _num = num;
-        if(num < 0 || num >100000){
+        if(num < 0 || num > 99999){
             printf("请重新输入一个数字(0-99999):");
         }
         else{
