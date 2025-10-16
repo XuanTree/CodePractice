@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     int num,_num;
+    printf("请输入一个数字:");
     while (scanf("%d",&num) != EOF){
         _num = num;
         if(num < 0 || num > 99999){
@@ -14,8 +15,7 @@ int main(){
             }
             num = _num;
             printf("\n你输入了一个%d位数",count);
-            switch (count)
-            {
+            switch (count){
             case 1:
                 printf("\n个位:%d",num);
                 printf("\n按逆序输出结果:%d\n",num);
@@ -59,3 +59,23 @@ int main(){
     }
     return 0;
 }
+// 尝试一个用数组解决的方法??? 
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char number[100];
+//     printf("请输入一个数字(100位都没关系的):");
+//     while(scanf("%s",number) != EOF){
+//         int length = strlen(number);
+//         printf("这是一个%d位数",length);
+//         for (int i = 0;i < length;i++){
+//             printf("%c ",number[i]);
+//         }
+//         printf("\n逆序输出:");
+//         for(int i = length;i >= 0;i--){
+//             printf("%c",number[i]);
+//         }
+//         printf("\n请输入一个数字(100位都没关系的):");
+//     }
+//     return 0;
+// }
