@@ -16,8 +16,8 @@ namespace mainCode
             Console.ResetColor();
             Random random = new Random();
             bool game_Property = false;
-            string[] skills = ["X斩击","双重治疗","防御增加"];
-            
+            string[] skills = ["X斩击", "双重治疗", "防御增加"];
+
             Console.WriteLine("输入 1 开始游戏！");
             try
             {
@@ -109,21 +109,21 @@ namespace mainCode
             }
         }
 
-        static bool Start(Character Player,Character Enemy,bool boolean)
-        { 
+        static bool Start(Character Player, Character Enemy, bool boolean)
+        {
             Console.WriteLine("按下空格释放技能!");
-           
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("*********************************************");
             Console.ResetColor();
             if (Player.health > 0 && Enemy.health > 0)
             {
-                Skill(Player,Player.skill);
+                Skill(Player, Player.skill);
                 Player.Attack(Enemy);
                 Space();
                 if (Enemy.health > 0)
                 {
-                    Skill(Enemy,Enemy.skill);
+                    Skill(Enemy, Enemy.skill);
                     Enemy.Attack(Player);
                     Space();
                 }
@@ -154,7 +154,7 @@ namespace mainCode
             Thread.Sleep(1000);
         }
 
-        static void Skill(Character character,string skill)
+        static void Skill(Character character, string skill)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
             if (key.Key == ConsoleKey.Spacebar)
@@ -193,14 +193,14 @@ namespace Characters
         public string name;
         public string skill;
         Random random = new Random();
-        public Character(string name, int health, int defence,string skill)
-            {
+        public Character(string name, int health, int defence, string skill)
+        {
             this.health = health;
             this.name = name;
             this.skill = "";
             this.defence = defence;
             damage = random.Next(80, 200);
-            }
+        }
         public void Attack(Character character)
         {
             if (this.health <= 0)
@@ -208,7 +208,7 @@ namespace Characters
                 Console.WriteLine(this.name + "已经死亡，无法攻击！");
                 return;
             }
-            else 
+            else
             {
                 if (damage < 0)
                 {
