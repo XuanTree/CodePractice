@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KU58RcgLT5k=",
+  "dgSpecHash": "iBmticFkjsM=",
   "success": true,
-  "projectFilePath": "D:\\My_Projects\\Csharp_Projects\\CsharpPractice\\Csharp_Count\\Csharp_Count.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\CodePractice\\Csharp\\Csharp_Count\\Csharp_Count.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.21\\microsoft.netcore.app.host.win-x64.8.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

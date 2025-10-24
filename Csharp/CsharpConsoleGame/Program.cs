@@ -25,7 +25,7 @@ namespace mainCode
                 if (test == 1)
                 {
                     game_Property = true;
-                    Console.WriteLine("游戏准备开始！");
+                    Console.WriteLine("游戏准备开始！\a");
                     Thread.Sleep(3000);
 
                     //生成玩家
@@ -97,7 +97,7 @@ namespace mainCode
                 }
                 else        //错误捕捉
                 {
-                    Console.WriteLine("叫你输入1你瞎吗");
+                    Console.WriteLine("\a叫你输入1你瞎吗\a");
                     Space();
                 }
             }

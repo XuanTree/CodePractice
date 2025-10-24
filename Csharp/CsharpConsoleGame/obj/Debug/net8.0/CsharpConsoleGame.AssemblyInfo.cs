@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0712980e1795c9579233bf86d804d2ae4e9ed7a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2ba5433e7d9cd43739bc0adb8ed1f564ea2911d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

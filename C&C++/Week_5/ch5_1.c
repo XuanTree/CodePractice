@@ -2,7 +2,7 @@
 int main(){
     int chicken,bunny;
     int heads = 35,feet = 94;
-    for(int i = 1;i <= heads;i++){
+    for(int i = 0;i <= heads;i++){
         chicken = i;
         bunny = heads - i;
         if(2 * chicken + 4 * bunny == feet){
