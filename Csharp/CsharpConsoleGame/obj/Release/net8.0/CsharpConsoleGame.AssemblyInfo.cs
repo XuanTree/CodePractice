@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8fd6e927396ddf74c9f8890124ea85f9ca6f35e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78174be593b253e9b94af0291a99c401aac48180")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpConsoleGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

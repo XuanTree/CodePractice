@@ -13,8 +13,12 @@
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
         "outputPath": "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\VSshared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\玄树\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
