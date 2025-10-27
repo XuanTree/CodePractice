@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj": {}
+    "d:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj": {}
   },
   "projects": {
-    "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj": {
+    "d:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj",
+        "projectUniqueName": "d:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj",
         "projectName": "CsharpConsoleGame",
-        "projectPath": "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj",
+        "projectPath": "d:\\CodePractice\\Csharp\\CsharpConsoleGame\\CsharpConsoleGame.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "D:\\CodePractice\\Csharp\\CsharpConsoleGame\\obj\\",
+        "outputPath": "d:\\CodePractice\\Csharp\\CsharpConsoleGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"
@@ -60,24 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

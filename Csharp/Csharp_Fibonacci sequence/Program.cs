@@ -21,7 +21,7 @@ namespace mainProgram
                 a = b;
                 b += temp;
                 Console.ForegroundColor = ConsoleColor.White;
-                //Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 if (b >= 100000)
                 {
                     Console.WriteLine("就演示到这里吧");

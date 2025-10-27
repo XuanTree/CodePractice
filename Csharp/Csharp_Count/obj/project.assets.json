@@ -8,7 +8,8 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\玄树\\.nuget\\packages\\": {}
+    "C:\\Users\\玄树\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\VSshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19,8 +20,12 @@
       "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
       "outputPath": "d:\\CodePractice\\Csharp\\Csharp_Count\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio\\VSshared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\玄树\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,24 +67,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
