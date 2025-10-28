@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpFindWord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4194b093c896913110ef95fec69f2ddf5986e26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1204822073d6092e8699904a187f79f9d11aebb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpFindWord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpFindWord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

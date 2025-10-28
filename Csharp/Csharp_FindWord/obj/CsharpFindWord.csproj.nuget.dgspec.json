@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodePractice\\Csharp\\CsharpFindWord\\CsharpFindWord.csproj": {}
+    "D:\\CodePractice\\Csharp\\Csharp_FindWord\\CsharpFindWord.csproj": {}
   },
   "projects": {
-    "D:\\CodePractice\\Csharp\\CsharpFindWord\\CsharpFindWord.csproj": {
+    "D:\\CodePractice\\Csharp\\Csharp_FindWord\\CsharpFindWord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodePractice\\Csharp\\CsharpFindWord\\CsharpFindWord.csproj",
+        "projectUniqueName": "D:\\CodePractice\\Csharp\\Csharp_FindWord\\CsharpFindWord.csproj",
         "projectName": "CsharpFindWord",
-        "projectPath": "D:\\CodePractice\\Csharp\\CsharpFindWord\\CsharpFindWord.csproj",
+        "projectPath": "D:\\CodePractice\\Csharp\\Csharp_FindWord\\CsharpFindWord.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "D:\\CodePractice\\Csharp\\CsharpFindWord\\obj\\",
+        "outputPath": "D:\\CodePractice\\Csharp\\Csharp_FindWord\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"

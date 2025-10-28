@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj": {}
+    "d:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj": {}
   },
   "projects": {
-    "D:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj": {
+    "d:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj",
+        "projectUniqueName": "d:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj",
         "projectName": "Csharp_General",
-        "projectPath": "D:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj",
+        "projectPath": "d:\\CodePractice\\Csharp\\Csharp_General\\Csharp_General.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "D:\\CodePractice\\Csharp\\Csharp_General\\obj\\",
+        "outputPath": "d:\\CodePractice\\Csharp\\Csharp_General\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"
