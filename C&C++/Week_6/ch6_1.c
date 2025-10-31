@@ -52,12 +52,15 @@ void reverseMaxAndMin(int array[],int n){
     }
     printf("\n");
 }
-void reverseTheArray(int array[],int n){
+int* reverseTheArray(int *array,int n){
     printf("The array after reversing:");
-    for(int i = n - 1;i >= 0;i--){
-        printf("%d ",array[i]);
+    for(int i = 0;i < n/2;i++){
+        int temp = array[i];
+        array[i] = array[n - i - 1];
+        array[n - i - 1] = temp;
     }
-    printf("\n");
+    showArray(array,n);
+    return array;
 }
 void bubbleSort(int array[],int n){
     for(int i = 0;i < n - 1;i++){
@@ -129,7 +132,6 @@ int main(){
     printf("\n");
     printf("Input a number you want to find:");
     scanf("%d",&number);
-    printf("\n");
     if(findTheNumber(array,n,number)){
         printf("Number Found.\n");
     }

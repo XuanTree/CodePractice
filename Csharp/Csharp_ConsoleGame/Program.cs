@@ -18,7 +18,7 @@ namespace mainCode
             bool game_Property = false;
             string[] skills = ["X斩击", "双重治疗", "防御增加"];
 
-            Console.WriteLine("输入 1 开始游戏！");
+            Console.WriteLine("\a输入 1 开始游戏！\a");
             try
             {
                 int test = Convert.ToInt32(Console.ReadLine());
@@ -35,7 +35,7 @@ namespace mainCode
                         Console.Write(VARIABLE + " ");
                     }
                     Console.WriteLine("");
-                    Console.WriteLine("请选择你的技能:");
+                    Console.WriteLine("请选择你的技能:\a");
                     Character Player = new Character("你", 400, 10, "");
                     Player.skill = Console.ReadLine();
 
@@ -46,19 +46,19 @@ namespace mainCode
                     }
                     else if (Player.skill == "X斩击")
                     {
-                        Console.WriteLine("你的技能是" + Player.skill);
+                        Console.WriteLine("\a你的技能是" + Player.skill);
                     }
                     else if (Player.skill == "双重治疗")
                     {
-                        Console.WriteLine("你的技能是" + Player.skill);
+                        Console.WriteLine("\a你的技能是" + Player.skill);
                     }
                     else if (Player.skill == "防御增加")
                     {
-                        Console.WriteLine("你的技能是" + Player.skill);
+                        Console.WriteLine("\a你的技能是" + Player.skill);
                     }
                     else
                     {
-                        Console.WriteLine("你输入了什么技能？");
+                        Console.WriteLine("\a你输入了什么技能？");
                     }
 
                     //生成敌人
