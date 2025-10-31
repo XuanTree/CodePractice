@@ -1,0 +1,15 @@
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\bin\Debug\net8.0\Csharp_TypeWriter.exe
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\bin\Debug\net8.0\Csharp_TypeWriter.deps.json
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\bin\Debug\net8.0\Csharp_TypeWriter.runtimeconfig.json
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\bin\Debug\net8.0\Csharp_TypeWriter.dll
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\bin\Debug\net8.0\Csharp_TypeWriter.pdb
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.GeneratedMSBuildEditorConfig.editorconfig
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.AssemblyInfoInputs.cache
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.AssemblyInfo.cs
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.csproj.CoreCompileInputs.cache
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.sourcelink.json
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.dll
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\refint\Csharp_TypeWriter.dll
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.pdb
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\Csharp_TypeWriter.genruntimeconfig.cache
+d:\CodePractice\Csharp\Csharp_TypeWriter\Csharp_TypeWriter\obj\Debug\net8.0\ref\Csharp_TypeWriter.dll

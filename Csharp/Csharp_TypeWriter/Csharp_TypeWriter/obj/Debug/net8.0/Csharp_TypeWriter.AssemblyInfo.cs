@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_TypeWriter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52d4af2da54a9bd82f1459371d678407cb762dd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+453d6320416706b351a445dac11551f644dc5a2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_TypeWriter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_TypeWriter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
