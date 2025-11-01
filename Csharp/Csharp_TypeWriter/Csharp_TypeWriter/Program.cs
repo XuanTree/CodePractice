@@ -8,7 +8,7 @@ class Program
     static async Task Main(string[] args)
     {
         string text = "这是一个打字机效果的演示！";
-        await TypeWriterEffect(text, 100); // 每个字符间隔100毫秒
+        await TypeWriterEffect(text, 150); // 每个字符间隔100毫秒
     }
     static async Task TypeWriterEffect(string text, int delay)
     {
