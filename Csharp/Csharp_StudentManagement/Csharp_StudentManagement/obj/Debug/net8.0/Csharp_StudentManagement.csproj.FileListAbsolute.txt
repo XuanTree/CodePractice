@@ -1,0 +1,15 @@
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\bin\Debug\net8.0\Csharp_StudentManagement.exe
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\bin\Debug\net8.0\Csharp_StudentManagement.deps.json
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\bin\Debug\net8.0\Csharp_StudentManagement.runtimeconfig.json
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\bin\Debug\net8.0\Csharp_StudentManagement.dll
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\bin\Debug\net8.0\Csharp_StudentManagement.pdb
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.GeneratedMSBuildEditorConfig.editorconfig
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.AssemblyInfoInputs.cache
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.AssemblyInfo.cs
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.csproj.CoreCompileInputs.cache
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.sourcelink.json
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.dll
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\refint\Csharp_StudentManagement.dll
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.pdb
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\Csharp_StudentManagement.genruntimeconfig.cache
+d:\CodePractice\Csharp\Csharp_StudentManagement\Csharp_StudentManagement\obj\Debug\net8.0\ref\Csharp_StudentManagement.dll

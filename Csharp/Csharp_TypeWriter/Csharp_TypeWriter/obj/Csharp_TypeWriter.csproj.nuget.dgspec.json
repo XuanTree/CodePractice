@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj": {}
+    "D:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj": {}
   },
   "projects": {
-    "d:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj": {
+    "D:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj",
+        "projectUniqueName": "D:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj",
         "projectName": "Csharp_TypeWriter",
-        "projectPath": "d:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj",
+        "projectPath": "D:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\Csharp_TypeWriter.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "d:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\obj\\",
+        "outputPath": "D:\\CodePractice\\Csharp\\Csharp_TypeWriter\\Csharp_TypeWriter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"

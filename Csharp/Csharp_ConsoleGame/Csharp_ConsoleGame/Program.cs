@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using Characters;
-
 namespace mainCode
 {
     class Program
@@ -15,7 +14,6 @@ namespace mainCode
             Random random = new Random();
             bool game_Property = false;
             string[] skills = ["X斩击", "双重治疗", "防御增加"];
-
             Console.WriteLine("\a输入 1 开始游戏！\a");
             try
             {
@@ -25,7 +23,6 @@ namespace mainCode
                     game_Property = true;
                     Console.WriteLine("游戏准备开始！\a");
                     Thread.Sleep(3000);
-
                     //生成玩家
                     Console.WriteLine("你有以下技能可以选择：");
                     foreach (var VARIABLE in skills)
@@ -36,7 +33,6 @@ namespace mainCode
                     Console.WriteLine("请选择你的技能:\a");
                     Character Player = new Character("你", 400, 10, "");
                     Player.skill = Console.ReadLine();
-
                     //设置我方技能
                     if (Player.skill == "")
                     {
@@ -58,13 +54,11 @@ namespace mainCode
                     {
                         Console.WriteLine("\a你输入了什么技能？");
                     }
-
                     //生成敌人
                     int enemyHealth = random.Next(2000, 3000);
                     int enemyDefence = random.Next(1, 10);
                     Character Enemy = new Character("小怪", enemyHealth, enemyDefence, "");
                     int result = random.Next(3);
-
                     //设置敌人的技能
                     if (result == 1)
                     {
@@ -79,7 +73,6 @@ namespace mainCode
                         Enemy.skill = "防御增加";
                     }
                     int turn = 1;
-
                     Console.WriteLine("玩家血量:" + Player.health + "  敌人血量:" + Enemy.health);
                     Console.WriteLine("玩家防御:" + Player.defence + "  敌人防御:" + Enemy.defence);
                     Console.WriteLine("玩家伤害:" + Player.damage + "  敌人伤害:" + Enemy.damage);
@@ -106,7 +99,6 @@ namespace mainCode
                 throw;
             }
         }
-
         static bool Start(Character Player, Character Enemy, bool boolean)
         {
             Console.WriteLine("按下空格释放技能!");
@@ -142,7 +134,6 @@ namespace mainCode
                 return false;
             }
         }
-
         static void Space()
         {
             Console.WriteLine(" ");
@@ -151,7 +142,6 @@ namespace mainCode
             Console.ReadKey();
             Thread.Sleep(1000);
         }
-
         static void Skill(Character character, string skill)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
@@ -162,7 +152,6 @@ namespace mainCode
                 {
                     character.damage *= 2;
                 }
-
                 else if (skill == "双重治疗")
                 {
                     character.health *= 2;
@@ -180,7 +169,6 @@ namespace mainCode
         }
     }
 }
-
 namespace Characters
 {
     public class Character

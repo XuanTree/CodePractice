@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 typedef struct Character{
     double player_health;
     double player_defence;
@@ -14,7 +15,7 @@ Character characterSet(double cha1_h,double cha1_d,double cha1_a){
     srand(time(NULL));
     ch.enemy_damage = rand() % 100 + 1;
     ch.enemy_defence = rand() % 10 + 1;
-    ch.enemy_health = rand() % 10000 + 1;
+    ch.enemy_health = rand() % 100000 + 1;
     ch.player_damage = cha1_a;
     ch.player_defence = cha1_d;
     ch.player_health = cha1_h;
@@ -28,10 +29,13 @@ Character characterSet(double cha1_h,double cha1_d,double cha1_a){
     printf("------------------------------\n");
     return ch;
 }
-Character playerRound(double player_damage){
-    Character enemy;
-    enemy.enemy_health = enemy.enemy_health + enemy.enemy_defence - player_damage;
-    return enemy;
+Character playerRound(Character ch,double player_damage){
+    ch.enemy_health = ch.enemy_health + ch.enemy_defence - player_damage;
+    return ch;
+}
+Character enemyRound(Character ch,double enemy_damage){
+    ch.player_health = ch.player_health + ch.player_defence - enemy_damage;
+    return ch;
 }
 void Divider(){
     printf("\n");
@@ -39,17 +43,38 @@ void Divider(){
     printf("\n");
     return;
 }
+void showInfo(double playerHP,double enemyHP){
+    Divider();
+    printf("\nYour HP is %.2lf\tEnemy HP is %.2lf !\n",playerHP,enemyHP);
+    return;
+}
 int main(){
+    int turn = 1;
     double player_health;
     double player_defence;
     double player_damage;
     Character(*p_characterSet)(double,double,double);
-    Character(*p_playerRound)(double);
     p_characterSet = &characterSet;
-    p_playerRound = &playerRound;
     printf("Welcome to the C Console Game!\n");
     printf("Input your data(HP Defence Damage):");
     scanf("%lf %lf %lf",&player_health,&player_defence,&player_damage);
     Character ch = p_characterSet(player_health,player_defence,player_damage);
-    Character en = p_playerRound(ch.player_damage);
+    while(1){
+        printf("\n--TURN %d--\n",turn);
+        ++turn;
+        ch = playerRound(ch, ch.player_damage);
+        if(ch.enemy_health <= 0){
+            printf("Enemy is defeated! You won!\n");
+            break;
+        }
+        ch = enemyRound(ch, ch.enemy_damage);
+        if(ch.player_health <= 0){
+            printf("You have no HP. You lost!\n");
+            break;
+        }
+        sleep(1);
+        showInfo(ch.player_health, ch.enemy_health);
+        Divider();
+    }
+    return 0;
 }
