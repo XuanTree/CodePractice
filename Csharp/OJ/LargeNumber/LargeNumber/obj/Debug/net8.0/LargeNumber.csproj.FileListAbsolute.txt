@@ -1,0 +1,15 @@
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\bin\Debug\net8.0\LargeNumber.exe
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\bin\Debug\net8.0\LargeNumber.deps.json
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\bin\Debug\net8.0\LargeNumber.runtimeconfig.json
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\bin\Debug\net8.0\LargeNumber.dll
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\bin\Debug\net8.0\LargeNumber.pdb
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.GeneratedMSBuildEditorConfig.editorconfig
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.AssemblyInfoInputs.cache
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.AssemblyInfo.cs
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.csproj.CoreCompileInputs.cache
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.sourcelink.json
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.dll
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\refint\LargeNumber.dll
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.pdb
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\LargeNumber.genruntimeconfig.cache
+d:\CodePractice\Csharp\OJ\LargeNumber\LargeNumber\obj\Debug\net8.0\ref\LargeNumber.dll

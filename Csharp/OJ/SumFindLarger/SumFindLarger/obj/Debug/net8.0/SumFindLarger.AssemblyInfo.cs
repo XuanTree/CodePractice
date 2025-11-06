@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumFindLarger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab3820d46a57482e1b8a522d554354d5f9cd920d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+775ab527aad376fdc86bd982ed406c4cea23d7d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumFindLarger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumFindLarger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
