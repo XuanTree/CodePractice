@@ -18,9 +18,8 @@ void charJudge(char *str){
 }
 int main(){
     char str[1000];
-    for(int i = 0; i < 1000; i++){
-        if(scanf("%c", &str[i]) == EOF) break;
+    while(gets_s(str,1000) != NULL){
+        charJudge(str);
     }
-    charJudge(str);
     return 0;
 }

@@ -12,9 +12,9 @@ char* connectTwoStrings(char* s1, char* s2){
 int main(){
     char s1[N], s2[N];
     printf("Enter the first string:");
-    scanf("%s", s1);
+    gets_s(s1,N);
     printf("Enter the second string:");
-    scanf("%s", s2);
+    gets_s(s2,N);
     char* result = connectTwoStrings(s1, s2);
     printf("The connected string is: %s", result);
     return 0;
