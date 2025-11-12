@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;//题源:https://www.luogu.com.cn/problem/P1008
 using System.Collections.Generic;
 namespace OneTwoThree;
 class Program

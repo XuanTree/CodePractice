@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace Csharp_ConsoleGame
 {
     public class Character
@@ -47,6 +46,5 @@ namespace Csharp_ConsoleGame
                 }
             }
         }
-
     }
 }

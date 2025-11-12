@@ -6,6 +6,7 @@ namespace Csharp_ConsoleGame
     {
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.Title = "C# Console Game";
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("C# Console Game");
@@ -104,7 +105,6 @@ namespace Csharp_ConsoleGame
         static bool Start(Character Player, Character Enemy, bool boolean)
         {
             Console.WriteLine("按下空格释放技能!");
-
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("**************************************");
             Console.ResetColor();

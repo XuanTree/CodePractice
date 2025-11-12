@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj": {}
+    "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj": {}
   },
   "projects": {
-    "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj": {
+    "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
+        "projectUniqueName": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
         "projectName": "Csharp_StudentManagement",
-        "projectPath": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
+        "projectPath": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\obj\\",
+        "outputPath": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"

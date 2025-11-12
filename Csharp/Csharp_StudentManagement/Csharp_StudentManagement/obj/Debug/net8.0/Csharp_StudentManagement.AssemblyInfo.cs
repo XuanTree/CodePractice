@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5262879966cf4f624fe7bb27fe09054ad268c72f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66bf7001505367187ed60b362f1d11d77f7d093a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;//题源:https://www.luogu.com.cn/problem/P1009
 namespace Factorial;
 class Program
 {

@@ -11,6 +11,7 @@ namespace Csharp_StudentManagement
     {
         static async Task Main(string[] args)
         {
+            Console.Clear();
             Console.Title = "Student Management System";
             List<Student> studentList = new List<Student>();
             Console.ForegroundColor = ConsoleColor.Green;
