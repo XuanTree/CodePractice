@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+775ab527aad376fdc86bd982ed406c4cea23d7d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea09d7c317ab2bb726f277fe10907770939a2fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_StudentManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

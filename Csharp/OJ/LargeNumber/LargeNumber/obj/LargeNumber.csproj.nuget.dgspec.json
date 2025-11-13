@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj": {}
+    "D:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj": {}
   },
   "projects": {
-    "d:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj": {
+    "D:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj",
+        "projectUniqueName": "D:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj",
         "projectName": "LargeNumber",
-        "projectPath": "d:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj",
+        "projectPath": "D:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\LargeNumber.csproj",
         "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-        "outputPath": "d:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\obj\\",
+        "outputPath": "D:\\CodePractice\\Csharp\\OJ\\LargeNumber\\LargeNumber\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\VSshared\\NuGetPackages"

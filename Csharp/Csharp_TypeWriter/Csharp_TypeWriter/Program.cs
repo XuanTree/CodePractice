@@ -9,6 +9,7 @@ class Program
     {
         string text = "这是一个打字机效果的演示！";
         await TypeWriterEffect(text, 150); // 每个字符间隔100毫秒
+        Console.ReadKey();
     }
     static async Task TypeWriterEffect(string text, int delay)
     {

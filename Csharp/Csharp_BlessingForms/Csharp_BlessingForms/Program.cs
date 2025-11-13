@@ -24,7 +24,6 @@ static class Program
             string blessing = blessings[index];
             BlessingForms.ShowBlessing(blessing);
         }
-        
     }
     static List<string> GetBlessings()
     {

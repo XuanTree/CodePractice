@@ -1,0 +1,15 @@
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\bin\Debug\net10.0\WordCount.exe
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\bin\Debug\net10.0\WordCount.deps.json
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\bin\Debug\net10.0\WordCount.runtimeconfig.json
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\bin\Debug\net10.0\WordCount.dll
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\bin\Debug\net10.0\WordCount.pdb
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.AssemblyInfoInputs.cache
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.AssemblyInfo.cs
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.csproj.CoreCompileInputs.cache
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.sourcelink.json
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.dll
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\refint\WordCount.dll
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.pdb
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\WordCount.genruntimeconfig.cache
+D:\CodePractice\Csharp\OJ\WordCount\WordCount\obj\Debug\net10.0\ref\WordCount.dll
