@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\",
+  "WorkspaceRootPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3BD8F00-6D6E-420C-93B4-3E1A3CD5D9FA}|WordCount.csproj|d:\\codepractice\\csharp\\oj\\wordcount\\wordcount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3BD8F00-6D6E-420C-93B4-3E1A3CD5D9FA}|WordCount.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{019E4FD0-C2BC-5B4E-82C4-B0EEE3BC87D2}|WordCount.csproj|d:\\codepractice\\csharp\\oj\\wordcount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019E4FD0-C2BC-5B4E-82C4-B0EEE3BC87D2}|WordCount.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\Program.cs",
+              "DocumentMoniker": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\Program.cs",
+              "ToolTip": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T14:46:52.069Z",
               "EditorCaption": ""

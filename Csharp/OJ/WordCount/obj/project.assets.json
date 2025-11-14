@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\WordCount.csproj",
+      "projectUniqueName": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount.csproj",
       "projectName": "WordCount",
-      "projectPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\WordCount.csproj",
+      "projectPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount.csproj",
       "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-      "outputPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\WordCount\\obj\\",
+      "outputPath": "D:\\CodePractice\\Csharp\\OJ\\WordCount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\VSshared\\NuGetPackages"
