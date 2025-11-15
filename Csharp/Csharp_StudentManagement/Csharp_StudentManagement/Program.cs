@@ -120,13 +120,29 @@ namespace Csharp_StudentManagement
             }
             static async Task ShowMainUI()
             {
+                Console.WriteLine("---------------------------");
+                Console.WriteLine("|Student Management System|");
+                Console.WriteLine("---------------------------");
                 await TypeWriter("Please select an option:");
-                Console.WriteLine("1. Add Student");
-                Console.WriteLine("2. View Students");
-                Console.WriteLine("3. Search Student");
-                Console.WriteLine("4. Update Students");
-                Console.WriteLine("5. Delete Student");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("---------------------------");
+                Console.Write("|1. Add Student");
+                Console.Write("           |\n");
+                Console.Write("---------------------------\n");
+                Console.Write("|2. View Students");
+                Console.Write("         |\n");
+                Console.Write("---------------------------\n");
+                Console.Write("|3. Search Student");
+                Console.Write("        |\n");
+                Console.Write("---------------------------\n");
+                Console.Write("|4. Update Students");
+                Console.Write("       |\n");
+                Console.Write("---------------------------\n");
+                Console.Write("|5. Delete Student");
+                Console.Write("        |\n");
+                Console.Write("---------------------------\n");
+                Console.Write("|6. Exit");
+                Console.Write("                  |\n");
+                Console.Write("---------------------------\n");
                 Console.Write("Enter your choice: ");
             }
             static List<Student> AddStudent(List<Student> studentList,string name,string gender,int age,string address,string phoneNumber)
