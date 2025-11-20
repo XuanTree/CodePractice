@@ -257,7 +257,6 @@ namespace Csharp_StudentManagement
                                 Console.ResetColor();
                                 break;
                         }
-
                         break;
                     }
                 }

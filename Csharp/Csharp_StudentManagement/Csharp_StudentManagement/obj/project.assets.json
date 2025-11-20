@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
+      "projectUniqueName": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
       "projectName": "Csharp_StudentManagement",
-      "projectPath": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
+      "projectPath": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\Csharp_StudentManagement.csproj",
       "packagesPath": "C:\\Users\\玄树\\.nuget\\packages\\",
-      "outputPath": "D:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\obj\\",
+      "outputPath": "d:\\CodePractice\\Csharp\\Csharp_StudentManagement\\Csharp_StudentManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\VSshared\\NuGetPackages"
@@ -67,6 +67,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
