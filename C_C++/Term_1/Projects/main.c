@@ -1,28 +1,55 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "printTest.h"
-typedef struct Student{
-    char name[20];
-    int age;
-}Student;
-int main(){
-    Student students[50];
-    
-    FILE *fp = NULL;
+#include <windows.h>
+#include "uiDraw.h"
+#include "students.h"
+int main()
+{
+    ShowMainUi();
     int count = 0;
-    fp = fopen("StudentsList.txt","r");
-    if(fp == NULL){
-        perror("Failed");
+    int choice,option;
+    while(scanf("%d",&choice) != EOF)
+    {
+        switch(choice)
+        {
+        case 1:
+            count = ImportEmploymentData();
+            break;
+        case 2:
+            ViewEmploymentData(count);
+            break;
+        case 3:
+            option = ShowReminderIDName();
+            SearchEmploymentData(option);
+            break;
+        case 4:
+            AddEmploymentData();
+            break;
+        case 5:
+            DeleteEmploymentData(count);
+            break;
+        case 6:
+            ChangeEmploymentData(count);
+            break;
+        case 7:
+            ShowSecondUi();
+            //StatisticsEmploymentData();
+            break;
+        case 8:
+            printf("\n系统退出中.....\n");
+            Sleep(2000);
+            system("cls");
+            goto end;
+            break;
+        default:
+            printf("无效的选项!\n");
+            Sleep(1000);
+            break;
+        }
+        system("cls");
+        ShowMainUi();
     }
-    while(count < 50 && fscanf(fp,"%s %d",students[count].name,&students[count].age) == 2){
-        count++;
-    }
-    fclose(fp);
-    printf("%d messages have been included\n",count);
-    for(int i = 0;i < count;i++){
-        printf("name: %s age: %d\n",students[i].name,students[i].age);
-    }
-    //printTest();
-    system("pause");
+    end:
+        system("pause");
     return 0;
 }

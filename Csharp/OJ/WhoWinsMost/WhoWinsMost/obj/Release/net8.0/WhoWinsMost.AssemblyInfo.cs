@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WhoWinsMost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea09d7c317ab2bb726f277fe10907770939a2fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84b8891b363890029b93e450715b75a9f511211f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WhoWinsMost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WhoWinsMost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

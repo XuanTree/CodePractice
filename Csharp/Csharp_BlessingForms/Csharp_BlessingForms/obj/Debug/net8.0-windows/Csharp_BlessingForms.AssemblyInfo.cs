@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_BlessingForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea09d7c317ab2bb726f277fe10907770939a2fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84b8891b363890029b93e450715b75a9f511211f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_BlessingForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_BlessingForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
