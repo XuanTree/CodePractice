@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mh1ONv1nii0=",
+  "dgSpecHash": "zhjx0pA9Jq8=",
   "success": true,
   "projectFilePath": "D:\\CodePractice\\Csharp\\Csharp_BlessingForms\\Csharp_BlessingForms\\Csharp_BlessingForms.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\玄树\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -89,26 +89,24 @@ int ImportEmploymentData()
     fclose(bp);
     printf("\n %d  条记录已写入students.dat.\n\n", count);
     system("pause");
-    free(fp);
     return count;
 }
 void ViewEmploymentData(int count)
 {
     system("cls");
-    if(count == 0)
-    {
-        printf("当前系统无毕业生信息!\n");
-        system("pause");
-        return;
-    }
     FILE *fp = fopen("students.dat", "rb");
     if (fp == NULL)
     {
-        printf("未找到students.dat!\n");
+        if (count == 0) {
+            printf("当前系统无毕业生信息!\n");
+        } else {
+            printf("未找到students.dat!\n");
+        }
         system("pause");
         return;
     }
     struct GraduateInfo student;
+    int records = 0;
     while (fread(&student, sizeof(struct GraduateInfo), 1, fp))
     {
         printf("%s\t%s\t%c\t%d-%02d-%02d\t%d\t%d\t%s\t%s\t%s\t%s\t%s\n",
@@ -125,10 +123,13 @@ void ViewEmploymentData(int count)
                 student.career_direction,
                 student.employer,
                 student.job_major);
+        records++;
     }
     fclose(fp);
+    if (records == 0) {
+        printf("当前系统无毕业生信息!\n");
+    }
     printf("\n");system("pause");
-    free(fp);
     return;
 }
 void SearchEmploymentData(int option)
@@ -145,7 +146,6 @@ void SearchEmploymentData(int option)
         fp = fopen("students.dat", "rb");
         if (fp == NULL)
         {
-            fp = fopen("students.dat", "rb");
             printf("未找到students.dat!\n");
             system("pause");
             return;
@@ -236,7 +236,6 @@ void SearchEmploymentData(int option)
     }
     printf("\n");
     system("pause");
-    free(fp);
     return;
 }
 void AddEmploymentData()
@@ -294,7 +293,6 @@ void AddEmploymentData()
     fclose(bp);
     printf("\n新数据已成功添加!\n");
     system("pause");
-    free(fp);
     return;
 }
 void DeleteEmploymentData(int count)
@@ -383,10 +381,8 @@ void DeleteEmploymentData(int count)
         }
         fclose(bp);
         printf("\n该学生信息已成功删除!\n");
-        free(bp);
     }
     system("pause");
-    free(fp);
     return;
 }
 void ChangeEmploymentData(int count)

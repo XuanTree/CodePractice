@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
@@ -38,9 +38,9 @@ namespace Csharp_StudentManagement
                         Console.WriteLine("OK!");
                         Console.Clear();
                         string name, gender, address, phoneNumber;
-                        for(int i = 0;i < count; i++)
+                        for (int i = 0; i < count; i++)
                         {
-                            await TypeWriter($"Enter student {i+1} name,gender,age,address,phonenumber: ");
+                            await TypeWriter($"Enter student {i + 1} name,gender,age,address,phonenumber: ");
                             string[] input = Console.ReadLine().Split(' ');
                             name = input[0];
                             gender = input[1];
@@ -114,7 +114,7 @@ namespace Csharp_StudentManagement
                 foreach (char c in text)
                 {
                     Console.Write(c);
-                    await Task.Delay(100); 
+                    await Task.Delay(100);
                 }
                 Console.WriteLine();
             }
@@ -145,7 +145,7 @@ namespace Csharp_StudentManagement
                 Console.Write("---------------------------\n");
                 Console.Write("Enter your choice: ");
             }
-            static List<Student> AddStudent(List<Student> studentList,string name,string gender,int age,string address,string phoneNumber)
+            static List<Student> AddStudent(List<Student> studentList, string name, string gender, int age, string address, string phoneNumber)
             {
                 Student student = new Student();
                 student.Name = name;
@@ -175,7 +175,7 @@ namespace Csharp_StudentManagement
                     Console.WriteLine("-------------------------------------------------------------------------------------------------");
                 }
             }
-            static void SearchStudent(List<Student> studentList,string name)
+            static void SearchStudent(List<Student> studentList, string name)
             {
                 bool found = false;
                 int len = studentList.Count;
@@ -202,7 +202,7 @@ namespace Csharp_StudentManagement
                     Console.ResetColor();
                 }
             }
-            static List<Student> UpdateStudent(List<Student> studentList,string name)
+            static List<Student> UpdateStudent(List<Student> studentList, string name)
             {
                 int len = studentList.Count;
                 Console.WriteLine("Please select the values to update:");
@@ -223,31 +223,31 @@ namespace Csharp_StudentManagement
                         {
                             case 1:
                                 studentList[i].Name = newValue;
-                                Console.ForegroundColor= ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Student updated successfully!");
                                 Console.ResetColor();
                                 break;
                             case 2:
                                 studentList[i].Gender = newValue;
-                                Console.ForegroundColor= ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Student updated successfully!");
                                 Console.ResetColor();
                                 break;
                             case 3:
                                 studentList[i].Age = int.Parse(newValue);
-                                Console.ForegroundColor= ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Student updated successfully!");
                                 Console.ResetColor();
                                 break;
                             case 4:
                                 studentList[i].Address = newValue;
-                                Console.ForegroundColor= ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Student updated successfully!");
                                 Console.ResetColor();
                                 break;
                             case 5:
                                 studentList[i].PhoneNumber = newValue;
-                                Console.ForegroundColor= ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Student updated successfully!");
                                 Console.ResetColor();
                                 break;
@@ -262,7 +262,7 @@ namespace Csharp_StudentManagement
                 }
                 return studentList;
             }
-            static List<Student> DeleteStudent(List<Student> studentList,string name)
+            static List<Student> DeleteStudent(List<Student> studentList, string name)
             {
                 bool found = false;
                 int len = studentList.Count;
