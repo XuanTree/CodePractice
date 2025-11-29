@@ -1,4 +1,4 @@
-void ShowMainUi();
-void ShowSecondUi();
-int ShowReminderIDName();
-int ShowWhichInfo();
+void DrawManu();
+int  DrawSecondManu();
+int  ShowReminderIDName();
+int  ShowWhichInfo();

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
-void ShowMainUi(){
+void DrawManu(){
     printf(
         "   信息学院毕业生就业去向管理系统\n\n");
     printf("+---------------------------------+\n");
@@ -22,7 +22,7 @@ void ShowMainUi(){
     printf("+---------------------------------+\n");
     printf("选择操作方式:");
 }
-void ShowSecondUi(){
+int DrawSecondManu(){
     system("cls");
     printf("| 统计就业数据                                             |\n");
     printf("+----------------------------------------------------------+\n");
@@ -37,11 +37,28 @@ void ShowSecondUi(){
     printf("| 5. 统计某一年份从事不同专业方向人数和比例                |\n");
     printf("+----------------------------------------------------------+\n");
     printf("选择操作方式:");
+    int option;
+    scanf("%d",&option);
+    switch(option)
+    {
+    case 1:
+        return 1;
+    case 2:
+        return 2;
+    case 3:
+        return 3;
+    case 4:
+        return 4;
+    case 5:
+        return 5;
+    default:
+        return 0;
+    }
 }
 int ShowReminderIDName()
 {
     system("cls");
-    printf(" 浏览就业数据                    \n");
+    printf(" 查询就业数据                    \n");
     printf("=================================\n");
     printf("1. 学号\t2. 姓名\n");
     printf("=================================\n");
@@ -60,12 +77,11 @@ int ShowReminderIDName()
 }
 int ShowWhichInfo()
 {
-    printf("---------------------------------\n");
-    printf(" 修改就业数据                 \n");
-    printf("---------------------------------\n");
-    printf("1. 学号\n2. 姓名\n3. 性别\n4. 出生时间\n5. 入学年份\n");
-    printf("6. 毕业年份\n7. 专业\n8. 就业方向\n9. 就业单位\n10. 工作专业\n");
-    printf("---------------------------------\n");
+    printf("\n 修改就业数据                 \n");
+    printf("+-------------------------------+\n");
+    printf("| 1. 学号\n| 2. 姓名\n| 3. 性别\n| 4. 出生时间\n| 5. 入学年份\n");
+    printf("| 6. 毕业年份\n| 7. 专业\n| 8. 就业方向\n| 9. 就业单位\n| 10. 工作专业\n| 11. 就业状态(已就业/未就业)\n");
+    printf("+-------------------------------+\n");
     printf("请选择要修改的信息:");
     int choice;
     scanf("%d",&choice);
@@ -101,6 +117,9 @@ int ShowWhichInfo()
         case 10:
             printf("请输入新的工作专业:");
             return 10;
+        case 11:
+            printf("请设置就业状态(输入 y 表示已就业, n 表示未就业):");
+            return 11;
         default:
             printf("无效的选项!");
             return 0;

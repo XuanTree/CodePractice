@@ -1,6 +1,7 @@
-int  ImportEmploymentData();
-void ViewEmploymentData(int count);
+struct GraduateInfo*  ImportEmploymentData();
+struct GraduateInfo* ViewEmploymentData();
 void SearchEmploymentData(int option);
-void AddEmploymentData();
-void DeleteEmploymentData(int count);
-void ChangeEmploymentData(int count);
+void AddEmploymentData(struct GraduateInfo* graduate);
+void DeleteEmploymentData(struct GraduateInfo* graduate);
+void ChangeEmploymentData(struct GraduateInfo* graduate);
+void StatisticsEmploymentData(int option);

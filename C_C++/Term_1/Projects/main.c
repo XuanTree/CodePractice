@@ -5,35 +5,35 @@
 #include "students.h"
 int main()
 {
-    ShowMainUi();
-    int count = 0;
+    DrawManu();
+    struct GraduateInfo *student_p = NULL;//初始化指针
     int choice,option;
     while(scanf("%d",&choice) != EOF)
     {
         switch(choice)
         {
         case 1:
-            count = ImportEmploymentData();
+            student_p = ImportEmploymentData();
             break;
         case 2:
-            ViewEmploymentData(count);
+            student_p = ViewEmploymentData();
             break;
         case 3:
             option = ShowReminderIDName();
             SearchEmploymentData(option);
             break;
         case 4:
-            AddEmploymentData();
+            AddEmploymentData(student_p);
             break;
         case 5:
-            DeleteEmploymentData(count);
+            DeleteEmploymentData(student_p);
             break;
         case 6:
-            ChangeEmploymentData(count);
+            ChangeEmploymentData(student_p);
             break;
         case 7:
-            ShowSecondUi();
-            //StatisticsEmploymentData();
+            option = DrawSecondManu();
+            StatisticsEmploymentData(option);
             break;
         case 8:
             printf("\n系统退出中.....\n");
@@ -47,9 +47,9 @@ int main()
             break;
         }
         system("cls");
-        ShowMainUi();
+        DrawManu();
     }
     end:
-        system("pause");
+        return 0;
     return 0;
 }
