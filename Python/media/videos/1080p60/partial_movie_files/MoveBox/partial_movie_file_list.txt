@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/3544663784_1768348202_3782140394.mp4'
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/260329756_400936036_3782140394.mp4'
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/260329756_3780530947_3782140394.mp4'
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/260329756_2834709167_2901116130.mp4'
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/260329756_1964399789_117881330.mp4'
+file 'file:D:/CodePractice/Python/media/videos/1080p60/partial_movie_files/MoveBox/260329756_2844360058_1672972667.mp4'
