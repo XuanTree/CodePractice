@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <windows.h>
+#include <stdlib.h>
 void DrawManu(){
     printf(
         "   信息学院毕业生就业去向管理系统\n\n");

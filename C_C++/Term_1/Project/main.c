@@ -2,7 +2,6 @@
 #include <windows.h>
 #include "uiDraw.h"
 #include "students.h"
-
 int main()
 {
     DrawManu();
@@ -33,7 +32,7 @@ int main()
             break;
         case 7:
             option = DrawSecondManu();
-            StatisticsEmploymentData(option);
+            StatisticsEmploymentData(option,student_p);
             break;
         case 8:
             printf("\n系统退出中.....\n");

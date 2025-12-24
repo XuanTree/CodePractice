@@ -466,6 +466,7 @@ void ChangeEmploymentData(GraduateInfo *students)
         return;
     }
     int found = 0;
+    int changeConfirmed = 0;
     // 读取所有学生信息
     int index = 0;
     while (fread(&students[index], sizeof(GraduateInfo), 1, fp))
@@ -550,6 +551,17 @@ void ChangeEmploymentData(GraduateInfo *students)
                 Sleep(1000);
                 return;
             }
+            printf("\n确认修改此学生信息?(y/n): ");
+            char cho;
+            scanf(" %c", &cho);
+            if (cho == 'y' || cho == 'Y')
+            {
+                changeConfirmed = 1;
+            }
+            else
+            {
+                printf("修改操作已取消。\n");
+            }
             found = 1;
         }
         index++;
@@ -561,24 +573,27 @@ void ChangeEmploymentData(GraduateInfo *students)
         system("pause");
         return;
     }
-    FILE *bp = fopen("students.dat", "wb");
-    if (bp == NULL)
+    if(changeConfirmed)
     {
-        printf("未能打开二进制文件并进行写入!\n");
-        system("pause");
-        return;
+        FILE *bp = fopen("students.dat", "wb");
+        if (bp == NULL)
+        {
+            printf("未能打开二进制文件并进行写入!\n");
+            system("pause");
+            return;
+        }
+        // 修改新的毕业生信息
+        for (int i = 0; i < index; i++)
+        {
+            fwrite(&students[i], sizeof(GraduateInfo), 1, bp);
+        }
+        fclose(bp);
+        printf("数据修改成功!\n");
     }
-    // 修改新的毕业生信息
-    for (int i = 0; i < index; i++)
-    {
-        fwrite(&students[i], sizeof(GraduateInfo), 1, bp);
-    }
-    fclose(bp);
-    printf("数据修改成功!\n");
     Sleep(2000);
     return;
 }
-void StatisticsEmploymentData(int option)
+void StatisticsEmploymentData(int option, GraduateInfo *arr)
 {
     // 清屏
     system("cls");
@@ -608,9 +623,6 @@ void StatisticsEmploymentData(int option)
         system("pause");
         return;
     }
-    // 分配内存以存储所有学生信息
-    GraduateInfo *arr = (GraduateInfo *)malloc(count * sizeof(GraduateInfo));
-    // 如果内存分配失败，打印错误信息并暂停程序
     if (!arr)
     {
         printf("内存分配失败!\n");
@@ -863,6 +875,4 @@ void StatisticsEmploymentData(int option)
     }
     // 暂停程序以查看统计结果
     system("pause");
-    // 释放之前分配的内存
-    free(arr);
 }
