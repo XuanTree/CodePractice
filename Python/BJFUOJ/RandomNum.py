@@ -1,6 +1,0 @@
-n = int(input())
-numbers = list(map(int, input().split()))
-unique_numbers = list(set(numbers))
-unique_numbers.sort()
-print(len(unique_numbers))
-print(' '.join(map(str, unique_numbers)), end=' ')

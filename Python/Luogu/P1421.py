@@ -1,6 +1,0 @@
-line = input().split(' ')
-a = float(line[0])
-b = float(line[1])
-total = a + (b/10)
-amount = int(total / 1.9)
-print(amount)

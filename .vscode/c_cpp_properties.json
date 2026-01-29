@@ -1,20 +1,17 @@
 {
     "configurations": [
         {
-            "name": "windows-gcc-x64",
+            "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:\\MinGW64\\**"
+                "D:/SFML64/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "D:/MinGW64/bin/g++.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++23",
-            "intelliSenseMode": "windows-gcc-x64"
+            "compilerPath": "D:\\MinGW64\\bin\\gcc.exe"
         }
     ],
     "version": 4
